@@ -1,12 +1,10 @@
-listfiles.c is a program written in c
+listfiles.c is a program written in c.<br>
+It lists all files present in a given directory with their permissions.<br>
 
-It lists all files present in a given directory with their permissions
+It makes use of stat structure to do so.<br>
+To run on Linux OS<br>
 
-It makes use of stat structure to do so
-
-To run on Linux OS
-
-$ gcc listfiles.c
+$ gcc listfiles.c <br>
 $ ./a.out /home/manu
 
 It will list all files in directory specified
