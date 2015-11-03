@@ -5,6 +5,6 @@ It makes use of stat structure to do so.<br>
 To run on Linux OS<br>
 
 $ gcc listfiles.c <br>
-$ ./a.out /home/manu
+$ ./a.out    /home/manu
 
 It will list all files in directory specified
