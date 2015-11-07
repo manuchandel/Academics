@@ -1,4 +1,4 @@
-/* Write a C program implementing bit stuffing algorithm */
+/* Write a C program implementing parity encode and parity check algorithm */
 
 /*
  *Manu Chandel
