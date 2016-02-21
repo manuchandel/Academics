@@ -1,5 +1,5 @@
-Length :: [a]-> Integer
-Length []=0
-Length x:xs= 1+ Length xs
+len :: [a]-> Integer
+len []=0
+len (x:xs) = 1+ len xs
 
-main=print([1,2,3,9])
+main=print(len [1,2,3,9])
